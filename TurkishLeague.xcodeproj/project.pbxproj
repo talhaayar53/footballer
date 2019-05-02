@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3DB78218BA6EB8F6D1DA6D /* Pods_TurkishLeague.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7400A27C82A891D29FC8E371 /* Pods_TurkishLeague.framework */; };
+		AB7F6855214CD2B000A69D3A /* teamclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F6854214CD2B000A69D3A /* teamclass.swift */; };
+		AB7F6857214CD35D00A69D3A /* playerclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F6856214CD35D00A69D3A /* playerclass.swift */; };
+		AB7F6859214CD47700A69D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F6858214CD47700A69D3A /* ViewController.swift */; };
+		AB7F685B214CD54F00A69D3A /* playerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F685A214CD54F00A69D3A /* playerViewController.swift */; };
+		AB7F685D214CDB8700A69D3A /* puanlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F685C214CDB8700A69D3A /* puanlarTableViewCell.swift */; };
+		AB7F685F214CF47400A69D3A /* OyuncularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F685E214CF47400A69D3A /* OyuncularTableViewCell.swift */; };
+		AB7F68C1214FDE5300A69D3A /* SampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F68C0214FDE5300A69D3A /* SampleProtocol.swift */; };
 		AB889C53214A9CD10072A5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB889C52214A9CD10072A5A5 /* AppDelegate.swift */; };
-		AB889C55214A9CD10072A5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB889C54214A9CD10072A5A5 /* ViewController.swift */; };
 		AB889C58214A9CD10072A5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB889C56214A9CD10072A5A5 /* Main.storyboard */; };
 		AB889C5A214A9CD30072A5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB889C59214A9CD30072A5A5 /* Assets.xcassets */; };
 		AB889C5D214A9CD30072A5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB889C5B214A9CD30072A5A5 /* LaunchScreen.storyboard */; };
+		AB889C65214A9D1E0072A5A5 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB889C64214A9D1E0072A5A5 /* TeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31CBDBAB88B637596D70E3E7 /* Pods-TurkishLeague.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishLeague.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurkishLeague/Pods-TurkishLeague.release.xcconfig"; sourceTree = "<group>"; };
+		7400A27C82A891D29FC8E371 /* Pods_TurkishLeague.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkishLeague.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7F6854214CD2B000A69D3A /* teamclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamclass.swift; sourceTree = "<group>"; };
+		AB7F6856214CD35D00A69D3A /* playerclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerclass.swift; sourceTree = "<group>"; };
+		AB7F6858214CD47700A69D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB7F685A214CD54F00A69D3A /* playerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerViewController.swift; sourceTree = "<group>"; };
+		AB7F685C214CDB8700A69D3A /* puanlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puanlarTableViewCell.swift; sourceTree = "<group>"; };
+		AB7F685E214CF47400A69D3A /* OyuncularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyuncularTableViewCell.swift; sourceTree = "<group>"; };
+		AB7F68C0214FDE5300A69D3A /* SampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProtocol.swift; sourceTree = "<group>"; };
 		AB889C4F214A9CD10072A5A5 /* TurkishLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkishLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB889C52214A9CD10072A5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB889C54214A9CD10072A5A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB889C57214A9CD10072A5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB889C59214A9CD30072A5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB889C5C214A9CD30072A5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB889C5E214A9CD30072A5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB889C64214A9D1E0072A5A5 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		DD88FBA43DD11BD387E0D0E5 /* Pods-TurkishLeague.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishLeague.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurkishLeague/Pods-TurkishLeague.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3DB78218BA6EB8F6D1DA6D /* Pods_TurkishLeague.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69B3A26A426683BD10E83033 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD88FBA43DD11BD387E0D0E5 /* Pods-TurkishLeague.debug.xcconfig */,
+				31CBDBAB88B637596D70E3E7 /* Pods-TurkishLeague.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB889C46214A9CD10072A5A5 = {
 			isa = PBXGroup;
 			children = (
 				AB889C51214A9CD10072A5A5 /* TurkishLeague */,
 				AB889C50214A9CD10072A5A5 /* Products */,
+				69B3A26A426683BD10E83033 /* Pods */,
+				BB035FCA730DA861E8D1BC57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,29 @@
 		AB889C51214A9CD10072A5A5 /* TurkishLeague */ = {
 			isa = PBXGroup;
 			children = (
+				AB7F6858214CD47700A69D3A /* ViewController.swift */,
+				AB7F685C214CDB8700A69D3A /* puanlarTableViewCell.swift */,
+				AB7F685A214CD54F00A69D3A /* playerViewController.swift */,
 				AB889C52214A9CD10072A5A5 /* AppDelegate.swift */,
-				AB889C54214A9CD10072A5A5 /* ViewController.swift */,
 				AB889C56214A9CD10072A5A5 /* Main.storyboard */,
+				AB7F685E214CF47400A69D3A /* OyuncularTableViewCell.swift */,
+				AB889C64214A9D1E0072A5A5 /* TeamViewController.swift */,
+				AB7F6854214CD2B000A69D3A /* teamclass.swift */,
+				AB7F6856214CD35D00A69D3A /* playerclass.swift */,
 				AB889C59214A9CD30072A5A5 /* Assets.xcassets */,
 				AB889C5B214A9CD30072A5A5 /* LaunchScreen.storyboard */,
 				AB889C5E214A9CD30072A5A5 /* Info.plist */,
+				AB7F68C0214FDE5300A69D3A /* SampleProtocol.swift */,
 			);
 			path = TurkishLeague;
+			sourceTree = "<group>";
+		};
+		BB035FCA730DA861E8D1BC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7400A27C82A891D29FC8E371 /* Pods_TurkishLeague.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB889C61214A9CD30072A5A5 /* Build configuration list for PBXNativeTarget "TurkishLeague" */;
 			buildPhases = (
+				E8127477D7F616EAFEC581D8 /* [CP] Check Pods Manifest.lock */,
 				AB889C4B214A9CD10072A5A5 /* Sources */,
 				AB889C4C214A9CD10072A5A5 /* Frameworks */,
 				AB889C4D214A9CD10072A5A5 /* Resources */,
+				D6731B7F018B8C4FB63FF1FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +177,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D6731B7F018B8C4FB63FF1FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TurkishLeague/Pods-TurkishLeague-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurkishLeague/Pods-TurkishLeague-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8127477D7F616EAFEC581D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkishLeague-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB889C4B214A9CD10072A5A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB889C55214A9CD10072A5A5 /* ViewController.swift in Sources */,
+				AB7F685D214CDB8700A69D3A /* puanlarTableViewCell.swift in Sources */,
+				AB7F6859214CD47700A69D3A /* ViewController.swift in Sources */,
+				AB7F685B214CD54F00A69D3A /* playerViewController.swift in Sources */,
+				AB7F6855214CD2B000A69D3A /* teamclass.swift in Sources */,
+				AB7F685F214CF47400A69D3A /* OyuncularTableViewCell.swift in Sources */,
+				AB7F6857214CD35D00A69D3A /* playerclass.swift in Sources */,
+				AB889C65214A9D1E0072A5A5 /* TeamViewController.swift in Sources */,
+				AB7F68C1214FDE5300A69D3A /* SampleProtocol.swift in Sources */,
 				AB889C53214A9CD10072A5A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +371,7 @@
 		};
 		AB889C62214A9CD30072A5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD88FBA43DD11BD387E0D0E5 /* Pods-TurkishLeague.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +389,7 @@
 		};
 		AB889C63214A9CD30072A5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CBDBAB88B637596D70E3E7 /* Pods-TurkishLeague.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
